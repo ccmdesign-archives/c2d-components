@@ -1,0 +1,72 @@
+---
+---
+
+body {
+  background-color: #ddd;
+}
+
+.component-container { padding: 300px; }
+
+// @import 'breakpoint';
+
+// // Breakpoints
+// $small-only: (max-width 40em);
+// $medium: 40.063em 64em;
+// $touch: (max-width 64em);
+// $medium-up: 40.063em;
+// $large: 64.063em;
+
+// $blue: #3b5998;
+// $dark-gray: #333;
+// $pink: #e84a5f;
+
+// $sans-serif: "Roboto", sans-serif;
+// $serif: "Roboto Slab", serif;
+
+// // $body-font: "freight-sans-pro", sans-serif;
+// // $display-font: "freight-sans-pro", sans-serif;
+
+
+// .clearfix:after {
+//    content: " "; /* Older browser do not support empty content */
+//    visibility: hidden;
+//    display: block;
+//    height: 0;
+//    clear: both;
+// }
+
+// .u-material-icons {
+//   font-family: 'Material Icons';
+//   font-weight: normal;
+//   font-style: normal;
+//   font-size: 24px;
+//   line-height: 1;
+//   letter-spacing: normal;
+//   text-transform: none;
+//   display: inline-block;
+//   white-space: nowrap;
+//   word-wrap: normal;
+//   direction: ltr;
+//   -webkit-font-feature-settings: 'liga';
+//   -webkit-font-smoothing: antialiased;
+// }
+
+// .u-transition { transition: all .4s ease; }
+
+// @mixin placeholder {
+//   &::-webkit-input-placeholder { @content }
+//   &:-moz-placeholder { @content }
+//   &::-moz-placeholder { @content }
+//   &:-ms-input-placeholder { @content }
+// }
+
+// .small-only { @include breakpoint($medium-up) { display: none !important; } }
+// .medium-up { @include breakpoint($small-only) { display: none !important; } }
+
+// .align-right {
+//   text-align: right;
+// }
+
+@import 'main';
+@import 'datepicker';
+@import 'autosuggest';
